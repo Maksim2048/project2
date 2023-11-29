@@ -1,0 +1,255 @@
+.body {
+  margin: 0;
+  position: relative;
+}
+.main {
+  /* display: inline-block; */
+}
+.Tennis {
+  object-fit: cover;
+  /* background-image: url(/img/Tennis.png); */
+  width: 100%;
+  height: 100%;
+}
+.Logo {
+  position: absolute;
+  top: 25px;
+  left: 140px;
+}
+.header > ul {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 360px;
+}
+.header > ul > li {
+  list-style: none;
+  margin: 13px;
+  padding: 2px;
+}
+.header > ul > li > a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+span {
+  word-spacing: 3px;
+}
+
+.youtube {
+  position: absolute;
+  color: white;
+  top: 30px;
+  left: 1180px;
+}
+.VK {
+  position: absolute;
+  color: white;
+  top: 30px;
+  left: 1230px;
+}
+.liniya {
+  position: absolute;
+  top: 70px;
+  border-bottom: 0.5px;
+  color: white;
+}
+.main > h2 {
+  display: block;
+  position: absolute;
+  top: 230px;
+  left: 800px;
+  color: white;
+}
+.main > h2 > p {
+  margin: 0;
+  padding: 5px;
+  font-size: 38px;
+}
+.blocki {
+  display: block;
+  background-color: #8d86c9;
+  width: 200px;
+  height: 110px;
+  margin-right: 20px;
+}
+.below {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  position: absolute;
+  top: 580px;
+  left: 15%;
+  width: 920px;
+  justify-content: space-between;
+}
+.blocki > p {
+  margin-left: 8px;
+  padding-left: 5px;
+  color: white;
+}
+.P {
+  font-size: 20px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+.blocki > a {
+  display: block;
+  margin-left: 135px;
+}
+.Logo1 {
+  position: absolute;
+  bottom: 60px;
+  left: 140px;
+}
+.Logo2 {
+  position: absolute;
+  bottom: 60px;
+  left: 380px;
+}
+.Logo3 {
+  position: absolute;
+  bottom: 60px;
+  left: 620px;
+}
+.Logo4 {
+  position: absolute;
+  bottom: 60px;
+  left: 860px;
+}
+.kort {
+  width: 1337px;
+}
+#Novosti {
+  position: absolute;
+  top: 730px;
+  left: 600px;
+  color: white;
+  font-size: 40px;
+}
+.Obzor {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-between;
+  justify-content: center;
+  margin-top: 90px;
+}
+.kartinki > button:hover {
+  background-color: rgba(40, 18, 240, 0.624);
+}
+.kartinki > img {
+  width: 310px;
+}
+.kartinki > button {
+  background-color: #7167cd;
+  color: white;
+  border-color: #8d86c9;
+  min-width: 130px;
+  min-height: 35px;
+  border-radius: 6px;
+}
+.write {
+  font-weight: bolder;
+  line-height: 20px;
+  font-size: 20px;
+  text-align-last: justify;
+}
+.data {
+  color: gray;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 14px;
+}
+.kartinki {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgba(255, 228, 196, 0.857);
+  border-width: 0.5px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 15px;
+  background-color: rgba(73, 86, 186, 0.09);
+}
+#one {
+  background-color: #7167cd;
+  color: white;
+  border-color: #8d86c9;
+  min-width: 130px;
+  min-height: 35px;
+  border-radius: 6px;
+  margin-top: 40px;
+}
+#one:hover {
+  background-color: rgba(40, 18, 240, 0.624);
+}
+
+.Tema {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 42px;
+  margin-top: 30px;
+  margin-left: 1200px;
+  border-style: solid;
+  border-color: rgb(9, 12, 105);
+  background-color: #a69ef0a9;
+  border-radius: 10px;
+}
+.Tema > p {
+  font-size: 14px;
+  color: rgb(1, 1, 42);
+}
+.registr {
+  background-color: rgba(61, 111, 209, 0.914);
+  /* position: absolute; */
+  margin-left: 600px;
+  /* top: 930px;
+  left: 600px; */
+  height: 40px;
+  border-radius: 8px;
+}
+.registr:hover {
+  background-color: rgba(14, 86, 232, 0.809);
+}
+.forma {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+}
+.forma {
+  display: flex;
+  margin-top: 40px;
+  position: absolute;
+  top: 1650px;
+  left: 460px;
+  background-color: rgba(136, 190, 238, 0.627);
+  border-radius: 15px;
+}
+.forma > fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+  width: 400px;
+  border-radius: 15px;
+  color: rgba(95, 170, 235, 0.627);
+}
+.forma > fieldset > input {
+  display: block;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+  margin-left: 48px;
+}
+#sub {
+  margin-left: 50px;
+}
+.forma > fieldset > button {
+  display: block;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+  margin-left: 48px;
+}
+.input:invalid {
+  border-color: red;
+}
